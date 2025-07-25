@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 	  "@needle-tools/car-physics": "1.0.0-alpha.16",
-	  "@needle-tools/engine": "^4.4.0-alpha",
+	  "@needle-tools/engine": "4.7.0-next.a507c47",
 	  "three": "npm:@needle-tools/three@^0.169.5"
 	},
 	"devDependencies": {
