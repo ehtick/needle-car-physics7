@@ -27,7 +27,7 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
-		"prepublishOnly": "npx --yes needle-publish-helper prepare-publish"
+		"prepublishOnly": "npx --yes needle-publish-helper@next prepare-publish"
 	},
 	"keywords": [
 		"threejs",
