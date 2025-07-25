@@ -265,7 +265,7 @@ export class CarPhysics extends Behaviour {
     }
     /** @internal */
     onDisable(): void {
-        if (this._vehicle) this.context.physics.engine?.world?.removeVehicleController(this._vehicle);
+        if (this._vehicle) this.context.physics.engine?.world?.removeVehicleController(this._vehicle as any);
         this._vehicle?.free();
         this._vehicle = null!;
         if (this._physicsRoutine) {
