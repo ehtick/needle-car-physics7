@@ -29,7 +29,7 @@ if (typeof window !== "undefined") {
         screenshotFn = ne.screenshot2;
 
         if (ne.DeviceUtilities.isMobileDevice()) {
-            updateSettings({ postprocessing: false });
+            updateSettings({ ao: false, });
         }
 
         // listen to the needle engine start
