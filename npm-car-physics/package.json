@@ -1,6 +1,6 @@
 {
 	"name": "@needle-tools/car-physics",
-	"version": "1.0.0-alpha.21",
+	"version": "1.0.0-alpha.22",
 	"description": "Car physics for Needle Engine: Create physical cars with ease",
 	"main": "index.ts",
 	"peerDependencies": {
