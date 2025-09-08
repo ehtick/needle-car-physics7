@@ -9,15 +9,19 @@ namespace Needle.Typescript.GeneratedComponents
 	{
 		public UnityEngine.GameObject @wheelModel;
 		public Needle.Typescript.GeneratedComponents.CarAxle @axle;
-		public float @radius;
-		public float @suspensionRestLength;
-		public float @maxSuspensionTravel;
+		public float @radius = -1f;
+		public float @suspensionRestLength = -1f;
+		public float @maxSuspensionTravel = -1f;
 		public float @suspensionCompression = -1f;
+		[UnityEngine.Tooltip("The relaxation of the suspension. Increase this value if the suspension appears to overshoot.")]
 		public float @suspensionRelax = -1f;
+		[UnityEngine.Tooltip("The stiffness of the suspension. Increase this value if the suspension appears to not push the vehicle strong enough.")]
 		public float @suspensionStiff = -1f;
+		[UnityEngine.Tooltip("The maximum force the suspension can expect.")]
 		public float @maxSuspensionForce = -1f;
 		public float @sideFrictionStiffness = 0.7f;
-		public UnityEngine.Vector2 @frictionSlip = new UnityEngine.Vector2(2f, 50f);
+		[UnityEngine.Tooltip("The friction of the wheel based on the grip amount. Higher values mean more grip. Value Range: Lower values generally make the car more slippery while higher values make it more grippy. This is particular noticeable when steering.")]
+		public UnityEngine.Vector2 @frictionSlip = new UnityEngine.Vector2(1f, 20f);
 		public UnityEngine.ParticleSystem @skidParticle;
 		public float @skidVisualSideThreshold = 5f;
 		public float @skidVisualBreakThreshold = 0.1f;

@@ -56,7 +56,7 @@ export class CarWheel extends Behaviour {
     @serializable()
     suspensionStiff: number = -1;
     /**
-     * The maximum force the suspension can exert.
+     * The maximum force the suspension can expect.
      * @default -1
      */
     @serializable()
