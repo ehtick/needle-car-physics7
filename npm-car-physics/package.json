@@ -1,6 +1,6 @@
 {
 	"name": "@needle-tools/car-physics",
-	"version": "1.0.0-alpha.20",
+	"version": "1.0.0-alpha.21",
 	"description": "Car physics for Needle Engine: Create physical cars with ease",
 	"main": "index.ts",
 	"peerDependencies": {
@@ -8,9 +8,9 @@
 		"three": ">=0.160.0"
 	},
 	"devDependencies": {
-		"@needle-tools/engine": "^4.4.0-alpha",
+		"@needle-tools/engine": "^4.9.0-alpha",
 		"@types/three": "0.169.0",
-		"three": "npm:@needle-tools/three@^0.169.5"
+		"three": "npm:@needle-tools/three@^0.169.10"
 	},
 	"repository": {
 		"type": "git",
